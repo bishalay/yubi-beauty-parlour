@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yubi Beauty Parlour</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Yubi Beauty</div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <img src="images/hero.jpg" alt="Beauty Salon" />
+    <div class="hero-text">
+      <h1>Glow with Yubi</h1>
+      <p>Professional beauty & wellness services in Jaypur, Jhapa</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services & Prices</h2>
+    <div class="service-grid">
+      <div class="card">
+        <h3>Facial</h3>
+        <p>Deep cleansing & glow treatment</p>
+        <strong>Rs. 1500</strong>
+      </div>
+      <div class="card">
+        <h3>Hair Styling</h3>
+        <p>Modern cuts & styling</p>
+        <strong>Rs. 800</strong>
+      </div>
+      <div class="card">
+        <h3>Bridal Makeup</h3>
+        <p>Full bridal package</p>
+        <strong>Rs. 7000</strong>
+      </div>
+      <div class="card">
+        <h3>Pedicure/Manicure</h3>
+        <p>Relaxing foot & nail care</p>
+        <strong>Rs. 600</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/gallery1.jpg" alt="Facial" />
+      <img src="images/gallery2.jpg" alt="Makeup" />
+      <img src="images/gallery3.jpg" alt="Hair Styling" />
+      <img src="images/gallery4.jpg" alt="Bridal Look" />
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonial-list">
+      <div class="testimonial">
+        <p>"Amazing bridal makeup! Made my wedding day perfect."</p>
+        <strong>- Priya S.</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Super relaxing facial, highly recommend!"</p>
+        <strong>- Anjali T.</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book an Appointment</h2>
+    <form id="booking-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="date" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section id="faq">
+    <h2>FAQs</h2>
+    <details>
+      <summary>Do I need to book in advance?</summary>
+      <p>Yes, it's recommended to ensure availability.</p>
+    </details>
+    <details>
+      <summary>Do you offer home services?</summary>
+      <p>Currently only available at the salon.</p>
+    </details>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@yubibeauty.com | Phone: +91 98765 43210</p>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.909152932081!2d87.96789837472243!3d26.58717717683713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef40df7dc1057d%3A0x3619ac3045e4d888!2sJaypur%2C%20Nepal!5e0!3m2!1sen!2snp!4v1712921542000!5m2!1sen!2snp"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+    <div class="socials">
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <h2>Stay Updated</h2>
+    <form>
+      <input type="email" placeholder="Your Email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Yubi Beauty Parlour | Designed with 💖</p>
+    <a href="#home" class="top-link">↑ Back to Top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
